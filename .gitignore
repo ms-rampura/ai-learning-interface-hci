@@ -1,0 +1,28 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporary/export files
+*.tmp
+*.bak
+~$*
+
+# Study privacy: do not commit identifiable or raw sensitive data
+study/data/raw/
+study/data/identifiable/
+*.recording
+*.wav
+*.mp4
+
+# Local environment/secrets
+.env
+.env.*
+!.env.example
